@@ -1,0 +1,153 @@
+/*
+
+filename: lab04.css
+
+author: Thomas Federico
+
+created: 28/03/2025
+
+last modified: 28/03/2025
+
+description: lab04.html
+
+*/
+
+/*--------------------------------------------------------------*/
+
+/* Universal element selector to set default font family */
+* { 
+    font-family: calibri, sans-serif;
+    color: #2F4F4F; /* Set default text color to #2F4F4F */
+}
+
+/* Heading 1 (h1) styling */
+h1 { 
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Heading 2 (h2) styling */
+h2 {
+    color: rgb(0,128,128); /* Set color to RGB (0,128,128) */
+    font-size: 1.5em; /* 1.5 times the standard size */
+    font-weight: bold;
+}
+
+/* Italicize <aside> and <footer> text */
+aside, footer { 
+    font-style: italic; 
+}
+
+/* Set font family for h1, h2, h3 to Arial or sans-serif */
+h1, h2, h3 { 
+    font-family: arial, sans-serif;
+}
+
+/* Add border to the table */
+table {
+    border: 1px solid black;
+}
+
+/* Center align the <h2> with id="images" */
+#images {
+    text-align: center;
+}
+
+/* Make the <h3> with id="heading3zingus" red */
+#heading3zingus {
+    color: red;
+}
+
+/* Style for elements with class "special" */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Add style for menu links (<nav>) */
+nav a {
+    text-decoration: none; /* Remove underline */
+    padding: 0.2em 0.6em; /* Add padding around menu items */
+    border: 4px solid #ccc; /* Add border around menu items */
+}
+
+/* Add hover effect for <nav> links (change background and border) */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* Group selector for making <ul> in an <ol> have square bullet points */
+ol ul {
+    list-style-type: square;
+}
+
+.menu{
+    display: inline-block;
+}
+
+aside{
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: lem;
+    padding: lem;
+    width: 30%;
+    background:url(images/fade.jpg) repeat-x top left;
+    float: right; 
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+header{
+    border: 1px inset darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color:lightgray;
+    text-align: center;
+}
+
+footer{
+    border-top: 4px double darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color:lightgray;
+    text-align: center;
+    width: 30%;
+    clear:both;
+}
+
+#list{
+    float: left;
+}
+
+table{
+    margin: auto;
+}
+
+#tables{
+    float: right;
+}
+
+#hyperlinks {
+    clear:both; float:left;
+}
+
+figure {border: 2px solic #ccc;}
+
+
+#lists, #images, #tables, #hyperlinks{
+    width: 50%;
+    text-align:center;
+}
+
+ol, ul, dl {text-align: left;}
+
+article {min-width:30em;}
+
+footer p {display:inline-block;  width:33%}
+
+footer p:first-child { float:left; }
+
+footer p:nth-child(2) {text-align: center; }
+
+footer p:last-child {float:right; text-align: right; }
